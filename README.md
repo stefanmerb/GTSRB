@@ -14,6 +14,7 @@ A convolutional neural network to classify German traffic signs
 # Dataset
 The German Traffic Sign Benchmark is a multi-class, single-image classification challenge held at the International Joint Conference on Neural Networks (IJCNN) 2011.
 It has 43 classes and more than 50.000 pictures in total.
+See more details: https://benchmark.ini.rub.de/
 
 # Model
 A own CNN is used and trained from scratch with Keras and Tensorflow.
