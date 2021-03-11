@@ -17,11 +17,11 @@ It has 43 classes and more than 50.000 pictures in total.
 See more details: https://benchmark.ini.rub.de/
 
 # Model
-You will find a own CNN which is used and trained from scratch with Keras and Tensorflow.
+At CNN_GTSRB you will find a own CNN which is used and trained from scratch with Keras and Tensorflow.
 I used Tensorflows ImageDataGenerator to get the highest possible accuracy.
 
 # Application
-At the application Notebook, there is an example how to load the best model from training and
+At the application Notebook , there is an example how to load the best model from training and
 use it to estimate a label for an unknown image.
 
 # Metrics
