@@ -17,7 +17,12 @@ It has 43 classes and more than 50.000 pictures in total.
 See more details: https://benchmark.ini.rub.de/
 
 # Model
-A own CNN is used and trained from scratch with Keras and Tensorflow.
+You will find a own CNN which is used and trained from scratch with Keras and Tensorflow.
+I used Tensorflows ImageDataGenerator to get the highest possible accuracy.
+
+# Application
+At the application Notebook, there is an example how to load the best model from training and
+use it to estimate a label for an unknown image.
 
 # Metrics
-This model achieves 96.49% accuracy on test data (12630 images).
+This model achieves 96.37% accuracy on test data (12630 images).
