@@ -18,11 +18,11 @@ See more details: https://benchmark.ini.rub.de/
 
 # Model
 At CNN_GTSRB you will find a own CNN which is used and trained from scratch with Keras and Tensorflow.
-I used Tensorflows ImageDataGenerator to get the highest possible accuracy.
+I used Tensorflows ImageDataGenerator to get the highest possible accuracy and weighted loss to face the imbalanced dataset.
 
 # Application
 At the application Notebook , there is an example how to load the best model from training and
 use it to estimate a label for an unknown image.
 
 # Metrics
-This model achieves 96.37% accuracy on test data (12630 images).
+This model achieves 97.26% accuracy on test data (12630 images).
